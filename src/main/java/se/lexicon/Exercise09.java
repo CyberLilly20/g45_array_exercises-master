@@ -13,6 +13,11 @@ public class Exercise09 {
 
       int[] array1 = { 12, 22, 38, 45, 56};
       //int[] array2 = Arrays.copyOf(array1, array1.length+ nextInt());
+
+
+
+
+
   }
 
 }
