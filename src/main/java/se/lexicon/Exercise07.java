@@ -10,20 +10,20 @@ public class Exercise07 {
      * Odd Array: 1 7 9
      */
     public static void ex7() {
-        public static void mein (String[]args){
-            int[] arrays = {15, 10, 23, 45, 2, 7, 33, 6, 78, 9};
-            Arrays.sort(arrays);
-            int num = arrays.length;
 
-            for (int i = 0; i <= num; i++) {
-                System.out.println(" Array: " + i);
-                if (i % 2 != 0) {
-                    System.out.print("Odd numbers of array:" + i);
-                }
+        int[] arrays = {15, 10, 23, 45, 2, 7, 33, 6, 78, 9};
+        Arrays.sort(arrays);
+        int num = arrays.length;
 
-
+        for (int i = 0; i <= num; i++) {
+            System.out.println(" Array: " + i);
+            if (i % 2 != 0) {
+                System.out.print("Odd numbers of array:" + i);
             }
+
+
         }
+
 
     }
 

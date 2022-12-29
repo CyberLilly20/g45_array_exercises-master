@@ -1,5 +1,7 @@
 package se.lexicon;
 
+import java.util.Arrays;
+
 public class Exercise04 {
 
   /**
@@ -9,13 +11,13 @@ public class Exercise04 {
    *                Elements from second array: 1 15 20
    */
   public static void ex4() {
-    public static void mein(String[] args) {
+
 
     int[] array1 ={ 1, 15, 20 };
     int[] copyArray1 = Arrays.copyOf(array1, array1.length);
 
     System.out.println("Elements from array 1:" + Arrays.toString(array1));
-    System.out.println("Elements from copyArray1:" + Arrays.copyOf(copyArray1));
+    System.out.println("Elements from copyArray1:" + Arrays.toString(copyArray1));
 
 
   }
