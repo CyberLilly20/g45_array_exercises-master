@@ -1,6 +1,7 @@
 package se.lexicon;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Exercise09 {
 
@@ -12,7 +13,18 @@ public class Exercise09 {
   public static void ex9() {
 
       int[] array1 = { 12, 22, 38, 45, 56};
-      //int[] array2 = Arrays.copyOf(array1, array1.length+ nextInt());
+      System.out.println(" The number in the array are:" + Arrays.toString(array1));
+
+
+      int[] array2 = Arrays.copyOf(array1, array1.length+ 1);
+
+      Scanner scan = new Scanner(System.in);
+      for (int i = 0; i < array1.length; i++){
+          array2[i] = array1[i];
+      }
+      System.out.println("Input a number to add on the list: ");
+      array2[array2.length - 1] = scan.nextInt();
+      System.out.println(" The list is added: " + Arrays.toString(array2));
 
 
 
